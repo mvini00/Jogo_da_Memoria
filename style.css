@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.container{
+    margin-top: 80px;
+    width: 600px;
+    height: 450px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    background-image: url('img/fundo.jpg');
+}
+
+.caixa_h1{
+    width: 350px;
+    height: 50px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 130px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+
+#card{
+    display: flex;
+    justify-content: center;
+    transform-style: preserve-3d;
+    transition: all .9s;
+}
+
+.face{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#front{
+    background-color: rgb(0, 135, 212);
+    transform: rotateY(180deg);
+}
+      
+#back{
+    background-color: white;
+}
+
+h3{
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+p{
+    font-family: 'Hachi Maru Pop', cursive;
+    color: black;
+    font-size: 80px;
+}
+
+.bonus{
+    font-size: 20px;
+    text-align: center;
+}
+
+.flip{
+    transform: rotateY(180deg);
+}
+
+/*----------------------------------------------------------------*/
+
+#card1{
+    display: flex;
+    justify-content:center;
+    transform-style: preserve-3d;
+    transition: all .9s;
+    margin-left: 300px;
+}
+
+.face1{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#front1{
+    background-color: rgb(0, 135, 212);
+    transform: rotateY(180deg);
+}
+      
+#back1{
+    background-color: white;
+}
+
+.flip1{
+    transform: rotateY(180deg);
+}
+
+/*----------------------------------------------------------------*/
+
+#card2{
+    display: flex;
+    justify-content:center;
+    transform-style: preserve-3d;
+    transition: all .9s;
+    margin-right: 300px;
+}
+
+.face2{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#front2{
+    background-color: rgb(0, 135, 212);
+    transform: rotateY(180deg);
+}
+      
+#back2{
+    background-color: white;
+}
+
+.flip2{
+    transform: rotateY(180deg);
+}
+
+/*----------------------------------------------------------------*/
+
+#card3{
+    display: flex;
+    justify-content: center;
+    transform-style: preserve-3d;
+    transition: all .9s;
+    margin-top: 120px;
+}
+
+.face3{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#front3{
+    background-color: rgb(0, 135, 212);
+    transform: rotateY(180deg);
+}
+      
+#back3{
+    background-color: white;
+}
+
+.flip3{
+    transform: rotateY(180deg);
+}
+
+/*----------------------------------------------------------------*/
+
+#card4{
+    display: flex;
+    justify-content:center;
+    transform-style: preserve-3d;
+    transition: all .9s;
+    margin-right: 300px;
+}
+
+.face4{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#front4{
+    background-color: rgb(0, 135, 212);
+    transform: rotateY(180deg);
+}
+      
+#back4{
+    background-color: white;
+}
+
+.flip4{
+    transform: rotateY(180deg);
+}
+
+/*----------------------------------------------------------------*/
+
+#card5{
+    display: flex;
+    justify-content:center;
+    transform-style: preserve-3d;
+    transition: all .9s;
+    margin-left: 300px;
+}
+
+.face5{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#front5{
+    background-color: rgb(0, 135, 212);
+    transform: rotateY(180deg);
+}
+      
+#back5{
+    background-color: white;
+}
+
+.flip5{
+    transform: rotateY(180deg);
+}
+
+/*----------------------------------------------------------------*/
+
+#card6{
+    display: flex;
+    justify-content: center;
+    transform-style: preserve-3d;
+    transition: all .9s;
+    margin-top: 120px;
+}
+
+.face6{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#front6{
+    background-color: rgb(0, 135, 212);
+    transform: rotateY(180deg);
+}
+      
+#back6{
+    background-color: white;
+}
+
+.flip6{
+    transform: rotateY(180deg);
+}
+
+/*----------------------------------------------------------------*/
+
+#card7{
+    display: flex;
+    justify-content:center;
+    transform-style: preserve-3d;
+    transition: all .9s;
+    margin-right: 300px;
+}
+
+.face7{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#front7{
+    background-color: rgb(0, 135, 212);
+    transform: rotateY(180deg);
+}
+      
+#back7{
+    background-color: white;
+}
+
+.flip7{
+    transform: rotateY(180deg);
+}
+
+/*----------------------------------------------------------------*/
+
+#card8{
+    display: flex;
+    justify-content:center;
+    transform-style: preserve-3d;
+    transition: all .9s;
+    margin-left: 300px;
+}
+
+.face8{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#front8{
+    background-color: rgb(0, 135, 212);
+    transform: rotateY(180deg);
+}
+      
+#back8{
+    background-color: white
+}
+
+
+.flip8{
+    transform: rotateY(180deg);
+}

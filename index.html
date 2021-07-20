@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flip</title>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="caixa_h1">
+        <h1>JOGO DA MEMÓRIA</h1>
+    </div>
+
+        <!--############### CARD 0 ###############-->
+            <div class="flip" id="card">
+
+                <div class="face" id="front">
+                    <h3>Clique</h3>
+                </div><!--front-->
+
+                <div class="face" id="back">
+                    <p>A</p>
+                </div><!--back-->
+            
+            </div><!--card-->
+
+            
+        <!--############### CARD 1 ###############-->
+            <div class="flip1" id="card1">
+
+                <div class="face1" id="front1">
+                    <h3>Clique</h3>
+                </div><!--front-->
+
+                <div class="face1" id="back1">
+                    <p>B</p>
+                </div><!--back-->
+            
+            </div><!--card-->
+
+        <!--############### CARD 2 ###############-->
+            <div class="flip2" id="card2">
+
+                <div class="face2" id="front2">
+                    <h3>Clique</h3>
+                </div><!--front-->
+
+                <div class="face2" id="back2">
+                    <p>B</p>
+                </div><!--back-->
+            
+            </div><!--card-->
+
+        <!--############### CARD 3 ###############-->
+            <div class="flip3" id="card3">
+
+                <div class="face3" id="front3">
+                    <h3>Clique</h3>
+                </div><!--front-->
+
+                <div class="face3" id="back3">
+                    <p>C</p>
+                </div><!--back-->
+            
+            </div><!--card-->
+        
+        <!--############### CARD 4 ###############-->
+            <div class="flip4" id="card4">
+
+                <div class="face4" id="front4">
+                    <h3>Clique</h3>
+                </div><!--front-->
+
+                <div class="face4" id="back4">
+                    <p>D</p>
+                </div><!--back-->
+            
+            </div><!--card-->
+
+        <!--############### CARD 5 ###############-->
+            <div class="flip5" id="card5">
+
+                <div class="face5" id="front5">
+                    <h3>Clique</h3>
+                </div><!--front-->
+
+                <div class="face5" id="back5">
+                    <p class="bonus">Jogue + 1 vez</p>
+                </div><!--back-->
+            
+            </div><!--card-->
+
+        <!--############### CARD 6 ###############-->
+            <div class="flip6" id="card6">
+
+                <div class="face6" id="front6">
+                    <h3>Clique</h3>
+                </div><!--front-->
+
+                <div class="face6" id="back6">
+                    <p>C</p>
+                </div><!--back-->
+            
+            </div><!--card-->
+
+        <!--############### CARD 7 ###############-->
+            <div class="flip7" id="card7">
+
+                <div class="face7" id="front7">
+                    <h3>Clique</h3>
+                </div><!--front-->
+
+                <div class="face7" id="back7">
+                    <p>D</p>
+                </div><!--back-->
+            
+            </div><!--card-->
+
+        <!--############### CARD 8 ###############-->
+            <div class="flip8" id="card8">
+
+                <div class="face8" id="front8">
+                    <h3>Clique</h3>
+                </div><!--front-->
+
+                <div class="face8" id="back8">
+                    <p>A</p>
+                </div><!--back-->
+            
+            </div><!--card-->
+
+</div><!--container-->
+
+<script>
+    const card = document.querySelector("#card")
+    card.addEventListener("click",(e)=>{
+        card.classList.toggle("flip")
+})
+</script>
+
+<script>
+    const card1 = document.querySelector("#card1")
+    card1.addEventListener("click",(e)=>{
+        card1.classList.toggle("flip1")
+})
+</script>
+
+<script>
+    const card2 = document.querySelector("#card2")
+    card2.addEventListener("click",(e)=>{
+        card2.classList.toggle("flip2")
+})
+</script>
+
+<script>
+    const card3 = document.querySelector("#card3")
+    card3.addEventListener("click",(e)=>{
+        card3.classList.toggle("flip3")
+})
+</script>
+
+<script>
+    const card4 = document.querySelector("#card4")
+    card4.addEventListener("click",(e)=>{
+        card4.classList.toggle("flip4")
+})
+</script>
+
+<script>
+    const card5 = document.querySelector("#card5")
+    card5.addEventListener("click",(e)=>{
+        card5.classList.toggle("flip5")
+})
+</script>
+
+<script>
+    const card6 = document.querySelector("#card6")
+    card6.addEventListener("click",(e)=>{
+        card6.classList.toggle("flip6")
+})
+</script>
+
+<script>
+    const card7 = document.querySelector("#card7")
+    card7.addEventListener("click",(e)=>{
+        card7.classList.toggle("flip7")
+})
+</script>
+
+<script>
+    const card8 = document.querySelector("#card8")
+    card8.addEventListener("click",(e)=>{
+        card8.classList.toggle("flip8")
+})
+</script>
+
+
+
+    
+</body>
+</html>
